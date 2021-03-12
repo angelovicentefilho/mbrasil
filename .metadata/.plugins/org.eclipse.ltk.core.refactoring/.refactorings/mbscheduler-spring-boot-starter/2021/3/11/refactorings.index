@@ -1,0 +1,10 @@
+1615417658635	Move file
+1615417661981	Delete element
+1615417680322	Delete element
+1615419582998	Rename local variable 'jp'
+1615419589006	Rename local variable 'jp'
+1615420935847	Rename local variable 'dcsScheduled'
+1615421026863	Extract method 'isEmpty'
+1615514842891	Move compilation unit
+1615516037958	Rename type 'MbSchedulingConfiguration'
+1615516051447	Rename type 'MbScheduled'

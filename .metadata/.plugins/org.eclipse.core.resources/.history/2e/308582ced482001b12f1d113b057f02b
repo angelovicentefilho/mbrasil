@@ -1,0 +1,8 @@
+package br.com.mbrasil.scheduler.task;
+
+import org.springframework.stereotype.Component;
+
+@Component("cronTaskRegister")
+public class CronTaskRegister implements DisponableBean {
+
+}

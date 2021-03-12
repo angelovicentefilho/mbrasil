@@ -1,0 +1,13 @@
+package br.com.mbrasil.hellow;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MbHelloworldApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MbHelloworldApplication.class, args);
+	}
+
+}

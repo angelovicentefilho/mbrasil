@@ -1,0 +1,7 @@
+package br.com.mbrasil.scheduler.domain;
+
+public class MBServerNode {
+
+	private String scheduleServerId;
+	private String scheduleServerName;
+}

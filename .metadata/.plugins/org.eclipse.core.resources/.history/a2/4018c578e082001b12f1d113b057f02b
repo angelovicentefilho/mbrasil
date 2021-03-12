@@ -1,0 +1,16 @@
+package br.com.mbrasil.hellow;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import br.com.mbrasil.scheduler.annotation.EnableMbScheduling;
+
+@SpringBootTest
+@EnableMbScheduling
+class MbHelloworldApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

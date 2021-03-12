@@ -1,0 +1,12 @@
+package br.com.mbrasil.scheduler.domain;
+
+public class Instruct {
+
+	private String ip;
+	private String schedulerServerId;
+	private String beanName;
+	private String methodName;
+	private String cron;
+	private Integer status;
+
+}

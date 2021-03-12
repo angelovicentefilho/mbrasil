@@ -1,0 +1,13 @@
+
+server:
+  port: 8082
+
+spring:
+  application:
+    name: helloworld
+
+mbrasil:
+  scheduler:
+    zkAddress: 2187
+    scheduleServerId: SERVER_ID
+    scheduleServerName: ZK_SERVER_NAME

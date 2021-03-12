@@ -1,0 +1,11 @@
+package br.com.mbrasil.scheduler.task;
+
+public class SchedulingRunnable implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

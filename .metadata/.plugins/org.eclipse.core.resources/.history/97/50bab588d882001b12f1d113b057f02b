@@ -1,5 +1,0 @@
-package br.com.mbrasil.scheduler.domain;
-
-public class MBServerNode {
-
-}

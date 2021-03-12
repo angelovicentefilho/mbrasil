@@ -1,5 +1,0 @@
-package br.com.mbrasil.scheduler.annotation;
-
-public @interface EnableMbScheduling {
-
-}

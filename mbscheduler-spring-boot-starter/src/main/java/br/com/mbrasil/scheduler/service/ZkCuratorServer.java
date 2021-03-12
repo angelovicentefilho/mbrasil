@@ -71,7 +71,7 @@ public class ZkCuratorServer {
 				if (Constants.Global.ip.equals(instruct.getIp())
 						&& Constants.Global.schedulerServerId.equals(instruct.getSchedulerServerId())) {
 					CronTaskRegister cronTaskRegistrar = applicationContext
-							.getBean("itstack-middlware-schedule-cronTaskRegister", CronTaskRegister.class);
+							.getBean("cronTaskRegister", CronTaskRegister.class);
 					boolean isExist = applicationContext.containsBean(instruct.getBeanName());
 					if (!isExist)
 						return;

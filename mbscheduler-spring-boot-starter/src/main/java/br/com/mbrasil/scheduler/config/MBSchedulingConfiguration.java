@@ -93,7 +93,7 @@ public class MBSchedulingConfiguration
             initTask(applicationContext);
             initNode();
             HeartbeatService.getInstance().startFlushScheduleStatus();
-            log.info("itstack middleware schedule init config、server、task、node、heart done!");
+            log.info("schedule init config、server、task、node、heart done!");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
